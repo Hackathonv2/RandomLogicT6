@@ -48,7 +48,7 @@ if __name__ == "__main__":
         if check_order(array2, similarity) == True:
             print("TEMPEST")
         else :
-            print("Normal")
+            print("NORMAL")
 
     except:
         exit(84)

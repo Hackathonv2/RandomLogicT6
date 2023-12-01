@@ -17,7 +17,8 @@ def main():
         if (nb % 2 != 0 and nb %3 != 0):
             nb -= 1
             continue
-    exit(int(nb))
+    print(int(nb))
+    exit(0)
 
 if __name__ == "__main__":
     main()

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sys
 
 def get_numbers():
@@ -78,10 +79,6 @@ if __name__ == "__main__":
         mini = get_min(dict)
         max_number = max(maxi)
         min_number = min(mini)
-        print(max_number, end='')
-        print(" - ", end='')
-        print(min_number, end='')
-        print(" = ", end='')
         print(max_number - min_number)
     except:
         exit(84)
